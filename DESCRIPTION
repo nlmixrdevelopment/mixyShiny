@@ -1,0 +1,27 @@
+Package: shinyClinPharmNlmixr
+Title: Clinical Pharmacology nlmixr shinyDashboard
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+    person(given="Bill", family="Denney", email="wdenney@humanpredictions.com", role=c("aut", "cre"),
+           comment=c(ORCID="0000-0002-5759-428X")),
+    person(given="Bernard", family="Ngara", role="aut"),
+    person(given="Mirjam", family="Trame", role="aut"),
+    person(given="Mulyukov", family="Zufar", role="ctb")
+    person(given="Matthew", family="Fidler", role="ctb")
+    )
+Imports:
+ dplyr,
+ ggplot2,
+ nlmixr,
+ RxODE,
+ shiny,
+ shinydashboard,
+ tidyr
+Description: Simulate nlmixr and RxODE models in a shiny app.  The project
+  was initially developed as part of the NGS 2018 Fellowship Program.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
